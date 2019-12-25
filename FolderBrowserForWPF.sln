@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderBrowserForWPF", "FolderBrowserForWPF\FolderBrowserForWPF.csproj", "{DE539C83-5E2A-43DD-A705-30AB6A6554F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{24C55CD2-A208-43DF-826B-3C3D6E046963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE539C83-5E2A-43DD-A705-30AB6A6554F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE539C83-5E2A-43DD-A705-30AB6A6554F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE539C83-5E2A-43DD-A705-30AB6A6554F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE539C83-5E2A-43DD-A705-30AB6A6554F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C55CD2-A208-43DF-826B-3C3D6E046963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C55CD2-A208-43DF-826B-3C3D6E046963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C55CD2-A208-43DF-826B-3C3D6E046963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C55CD2-A208-43DF-826B-3C3D6E046963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7901F15-5B39-413B-8425-E1AA3382D6AC}
+	EndGlobalSection
+EndGlobal
