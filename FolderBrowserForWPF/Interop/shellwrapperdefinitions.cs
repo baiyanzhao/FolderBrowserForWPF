@@ -19,7 +19,7 @@ namespace Interop
 	ClassInterface(ClassInterfaceType.None),
 	TypeLibType(TypeLibTypeFlags.FCanCreate),
 	Guid(CLSIDGuid.FileOpenDialog)]
-	internal class FileOpenDialogRCW
+	public class FileOpenDialogRCW
 	{
 	}
 }
