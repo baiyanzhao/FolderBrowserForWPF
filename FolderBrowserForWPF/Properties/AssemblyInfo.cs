@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("FolderBrowserForWPF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Use the Windows Vista / Windows 7 Folder Browser Dialog from your WPF projects, without any additional dependencies.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Zeroing")]
 [assembly: AssemblyProduct("FolderBrowserForWPF")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]

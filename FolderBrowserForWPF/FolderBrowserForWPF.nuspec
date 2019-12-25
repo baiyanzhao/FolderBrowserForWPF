@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/BaY1251/FolderBrowserForWPF/</projectUrl>
+    <icon>https://github.com/BaY1251/FolderBrowserForWPF/</icon>
+    <description>$description$</description>
+    <releaseNotes>FolderBrowser</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>FolderBrower WPF</tags>
+  </metadata>
+</package>
