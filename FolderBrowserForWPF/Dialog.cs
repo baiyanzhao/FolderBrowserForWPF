@@ -62,12 +62,8 @@ namespace FolderBrowserForWPF
 
 					dialog.SetFileName(System.IO.Path.GetFileName(FileName));
 				}
-#pragma warning disable CA1031 // 不捕获常规异常类型
-				catch(Exception x)
-#pragma warning restore CA1031 // 不捕获常规异常类型
-				{
-					Debug.WriteLine(x.Message);
-				}
+				catch
+				{ }
 			}
 		}
 

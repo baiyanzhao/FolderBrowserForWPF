@@ -11,9 +11,7 @@ namespace Interop
 	InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
 	internal interface IModalWindow
 	{
-
-		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime),
-		PreserveSig]
+		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime), PreserveSig]
 		int Show([In] IntPtr parent);
 	}
 
@@ -25,8 +23,7 @@ namespace Interop
 	{
 		// Defined on IModalWindow - repeated here due to requirements of COM interop layer
 		// --------------------------------------------------------------------------------
-		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime),
-		PreserveSig]
+		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime), PreserveSig]
 		new int Show([In] IntPtr parent);
 
 		// IFileDialog-Specific interface members
@@ -203,12 +200,10 @@ namespace Interop
 		// the dialog should not proceed (e.g. with closing, changing folder); to 
 		// support this, we need to use the PreserveSig attribute to enable us to return
 		// the proper HRESULT
-		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime),
-		PreserveSig]
+		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime), PreserveSig]
 		HRESULT OnFileOk([In, MarshalAs(UnmanagedType.Interface)] IFileDialog pfd);
 
-		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime),
-		PreserveSig]
+		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime), PreserveSig]
 		HRESULT OnFolderChanging([In, MarshalAs(UnmanagedType.Interface)] IFileDialog pfd, [In, MarshalAs(UnmanagedType.Interface)] IShellItem psiFolder);
 
 		[MethodImpl(MethodImplOptions.InternalCall, MethodCodeType = MethodCodeType.Runtime)]

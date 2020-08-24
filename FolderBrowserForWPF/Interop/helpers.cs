@@ -1,7 +1,4 @@
-using System;
 using System.Windows;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Interop
 {
@@ -13,7 +10,7 @@ namespace Interop
             Window defaultWindow = null;
 
             // TODO: Detect active window and change to that instead
-            if (Application.Current != null && Application.Current.MainWindow != null)
+            if(Application.Current != null && Application.Current.MainWindow != null)
             {
                 defaultWindow = Application.Current.MainWindow;
             }
