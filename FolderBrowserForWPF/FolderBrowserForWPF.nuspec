@@ -4,15 +4,15 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>BaY</authors>
     <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/BaY1251/FolderBrowserForWPF/</projectUrl>
     <icon>https://github.com/BaY1251/FolderBrowserForWPF/</icon>
-    <description>$description$</description>
+    <description>FolderBrowser</description>
     <releaseNotes>FolderBrowser</releaseNotes>
-    <copyright>Copyright 2019</copyright>
+    <copyright>Copyright 2020</copyright>
     <tags>FolderBrower WPF</tags>
   </metadata>
 </package>
