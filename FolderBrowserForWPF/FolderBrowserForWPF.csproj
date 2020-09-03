@@ -7,6 +7,9 @@
     <Version>1.1.0.0</Version>
     <PackageProjectUrl>https://github.com/BaY1251/FolderBrowserForWPF/</PackageProjectUrl>
     <PackageReleaseNotes>FolderBrowser</PackageReleaseNotes>
+    <PackageTags>FolderBrower, WPF</PackageTags>
+    <Authors>Zeroing</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
