@@ -1,13 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
   <PropertyGroup>
+    <TargetFrameworks>net472;netcoreapp3.1</TargetFrameworks>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
+    <Version>1.1.0.0</Version>
+    <PackageProjectUrl>https://github.com/BaY1251/FolderBrowserForWPF/</PackageProjectUrl>
+    <PackageReleaseNotes>FolderBrowser Note</PackageReleaseNotes>
+    <PackageTags>FolderBrower, WPF</PackageTags>
+    <Authors>Zeroing</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>FolderBrowserForWPF.Demo</PackageId>
+    <RepositoryUrl>Storage URL</RepositoryUrl>
+    <RepositoryType>Storage Type</RepositoryType>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="FolderBrowserForWPF" Version="1.1.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
-
 </Project>
